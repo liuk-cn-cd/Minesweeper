@@ -1,0 +1,13 @@
+<RCC>
+    <qresource prefix="/">
+        <file>Resources/mine.png</file>
+        <file>Resources/mineBig.png</file>
+        <file>Resources/redflag.png</file>
+        <file>Resources/Spade.png</file>
+        <file>Resources/anger.png</file>
+        <file>Resources/smiley.png</file>
+        <file>Resources/angry.png</file>
+        <file>Resources/blackflag.png</file>
+        <file>Resources/normal.png</file>
+    </qresource>
+</RCC>

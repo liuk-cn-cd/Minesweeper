@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;cxx;c;def</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h</Extensions>
+    </Filter>
+    <Filter Include="Form Files">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="Generated Files">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Debug">
+      <UniqueIdentifier>{5f223033-2ae9-4971-958a-b69d43aa7065}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="Generated Files\Release">
+      <UniqueIdentifier>{0961bb25-27ed-4fb5-afe4-7b4bf4845dc7}</UniqueIdentifier>
+      <Extensions>cpp;moc</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="数据管理">
+      <UniqueIdentifier>{26293232-9eed-4b16-a11a-46f98a30a173}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="界面">
+      <UniqueIdentifier>{3ba83a02-c9d7-4fde-998e-009ae75d305a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="视图项">
+      <UniqueIdentifier>{9dc39dea-2b22-4829-a83a-c052115b4fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="游戏记录">
+      <UniqueIdentifier>{b7694d16-8802-4feb-b4f6-0f59e4f2f079}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GeneratedFiles\Debug\moc_Minesweeper.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_Minesweeper.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\qrc_Minesweeper.cpp">
+      <Filter>Generated Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MineScene.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MineScene.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="MineBlockData.cpp">
+      <Filter>数据管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MineSweeperMgr.cpp">
+      <Filter>数据管理</Filter>
+    </ClCompile>
+    <ClCompile Include="MineScene.cpp">
+      <Filter>视图项</Filter>
+    </ClCompile>
+    <ClCompile Include="MineBlock.cpp">
+      <Filter>视图项</Filter>
+    </ClCompile>
+    <ClCompile Include="Minesweeper.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MineBlock.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_MineBlock.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_MineSweeperMgr.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_GameOptionDialog.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_GameOptionDialog.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GameOptionDialog.cpp">
+      <Filter>界面</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRecordTool.cpp">
+      <Filter>游戏记录</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="Minesweeper.qrc">
+      <Filter>Resource Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MineBlock.h">
+      <Filter>视图项</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MineScene.h">
+      <Filter>视图项</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Minesweeper.h">
+      <Filter>界面</Filter>
+    </CustomBuild>
+    <CustomBuild Include="Minesweeper.ui">
+      <Filter>界面</Filter>
+    </CustomBuild>
+    <CustomBuild Include="MineSweeperMgr.h">
+      <Filter>数据管理</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GameOptionDialog.ui">
+      <Filter>界面</Filter>
+    </CustomBuild>
+    <CustomBuild Include="GameOptionDialog.h">
+      <Filter>界面</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GeneratedFiles\ui_Minesweeper.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="MineBlockData.h">
+      <Filter>数据管理</Filter>
+    </ClInclude>
+    <ClInclude Include="DataDefine.h">
+      <Filter>数据管理</Filter>
+    </ClInclude>
+    <ClInclude Include="GeneratedFiles\ui_GameOptionDialog.h">
+      <Filter>Generated Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRecordTool.h">
+      <Filter>游戏记录</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Minesweeper.rc" />
+  </ItemGroup>
+</Project>

@@ -30,3 +30,13 @@
 *.exe
 *.out
 *.app
+*.tlog
+*.pdb
+*.exp
+*.ilk
+*.db
+*.log
+*.user
+*.aps
+.vs/Minesweeper/v14/.suo
+src/Minesweeper/Debug/Minesweeper.res

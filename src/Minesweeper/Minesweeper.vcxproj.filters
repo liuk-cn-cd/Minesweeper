@@ -98,9 +98,6 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="GameRecordTool.cpp">
-      <Filter>游戏记录</Filter>
-    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="Minesweeper.qrc">
@@ -140,9 +137,6 @@
     </ClInclude>
     <ClInclude Include="GeneratedFiles\ui_GameOptionDialog.h">
       <Filter>Generated Files</Filter>
-    </ClInclude>
-    <ClInclude Include="GameRecordTool.h">
-      <Filter>游戏记录</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

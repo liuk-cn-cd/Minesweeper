@@ -37,7 +37,6 @@ public:
 	void RestartGame();
 protected slots:
 	void SlotBlockOpen(int nRow, int nCol);
-private:
 	
 };
 
